@@ -1,5 +1,5 @@
 function RSSread() {
-  var Mastodon = "https://unnerv.jp/" + "※1";　　　//https://unnerv.jp/about/more から※1を指定
+  var Mastodon = "https://unnerv.jp/" + "https://unnerv.jp/about/more";　　　//https://unnerv.jp/about/more から※1を指定
   var feedURL  = Mastodon + ".atom";//取得したいRSSのURL化
   var now      = new Date();
   var nowdate  = Utilities.formatDate(now, 'Asia/Tokyo', 'yyyy/MM/dd HH:mm:ss')
